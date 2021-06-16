@@ -16,21 +16,25 @@
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
   --footer-bg-color: #2f303a;
 }
-html {
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
 
 body {
   font-family: Roboto, sans-serif;
   background-color: #ffffff;
   color: var(--primary-text-color);
   letter-spacing: 0.03em;
+}
+
+/* page header */
+.page-header {
+  background-color: #ccc;
+}
+.container {
+  width: 1230px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 5px solid teal;
 }
 
 .logo {
@@ -47,6 +51,7 @@ body {
 .list {
   list-style: none;
 }
+
 /* site nav */
 .site-nav .link {
   color: var(--secondary-text-color);
@@ -78,6 +83,7 @@ body {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06;
+  text-transform: uppercase;
 }
 /* features */
 .features-title {
@@ -140,6 +146,8 @@ body {
 .button.primary {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  border-radius: 4px;
+  padding: 10px, 32px;
 }
 
 .button:hover {
