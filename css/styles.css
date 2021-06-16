@@ -43,6 +43,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 
 .logo-part {
@@ -72,6 +73,7 @@ body {
 /* .contacts-nav */
 .contacts-nav a {
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 .contacts-nav a:hover,
 .contacts-nav a:focus {
@@ -151,6 +153,14 @@ body {
 }
 
 .button:hover {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.link {
+  text-decoration: none;
+}
+
+.link.list {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
