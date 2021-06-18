@@ -20,20 +20,44 @@
 body {
   font-family: Roboto, sans-serif;
   background-color: #ffffff;
-  color: var(--primary-text-color);
   letter-spacing: 0.03em;
 }
 
-/* page header */
-.page-header {
-  border-bottom: 1px solid#ECECEC;
-}
 .container {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.section {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+.section-list.list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.list {
+  list-style: none;
+}
+
+/* page header */
+.page-header {
+  border-bottom: 1px solid#ECECEC;
 }
 
 .logo {
@@ -49,9 +73,6 @@ body {
 }
 .footer-logo-part {
   color: var(--primary-white-color);
-}
-.list {
-  list-style: none;
 }
 
 /* site nav */
@@ -97,12 +118,6 @@ body {
   text-transform: uppercase;
 }
 /* features */
-.features {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-top: 47px;
-  padding-bottom: 47px;
-}
 .features-list.list {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -123,62 +138,45 @@ body {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-/* our work*/
-.work {
-  padding-top: 47px;
-  padding-bottom: 47px;
-}
-.section-title {
-  color: var(--secondary-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  margin-top: 0px;
-  margin-bottom: 50px;
-}
-.section-list.list {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
+
 /* our team */
-.team {
-  padding-top: 47px;
-  padding-bottom: 47px;
+ /* background-color: var(--secondary-bg-color); */
 }
 .employee-name {
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   margin-top: 0px;
   margin-bottom: 10px;
 }
 .employee-position {
   color: var(--primary-text-color);
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   margin-top: 0px;
   margin-bottom: 30px;
 }
+
 /* portfolio products */
-.portfolio {
-  padding-top: 47px;
-  padding-bottom: 47px;
-}
 .products .title {
   color: var(--secondary-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  margin-top: 0px;
+  margin-bottom: 4px;
 }
 .product-type {
   color: var(--primary-text-color);
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
+
 /* button */
 .button {
   font-family: inherit;
@@ -221,11 +219,6 @@ body {
 .btn-link:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-}
-
-/* our team */
-.team {
-  background-color: var(--secondary-bg-color);
 }
 
 /* footer */
