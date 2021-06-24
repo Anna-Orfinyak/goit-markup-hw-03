@@ -36,8 +36,8 @@ body {
 .section {
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  /* padding-top: 94px;
+  padding-bottom: 94px; */
 }
 
 .section-title {
@@ -48,6 +48,7 @@ body {
   text-align: center;
   margin-top: 0px;
   margin-bottom: 50px;
+  padding-top: 94px;
 }
 .section-list.list {
   margin-top: 0px;
@@ -146,6 +147,8 @@ img {
   text-align: center;
 }
 .hero-title {
+  display: flex;
+  flex-direction: column;
   margin-top: 0px;
   margin-bottom: 30px;
   color: var(--primary-white-color);
@@ -190,6 +193,7 @@ img {
 /* our work */
 .work > .container {
   display: flex;
+  padding-bottom: 94px;
 }
 .work > .container > .item {
   width: calc((100%-60px) / 3);
@@ -200,8 +204,10 @@ img {
   margin-right: 0px;
 }
 /* our team */
-/* background-color: var(--secondary-bg-color);
-} */
+.section > .team {
+  background-color: var(--secondary-bg-color);
+  padding-bottom: 94px;
+}
 .team > .container {
   display: flex;
 }
