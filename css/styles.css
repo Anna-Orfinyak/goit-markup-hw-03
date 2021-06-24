@@ -59,6 +59,7 @@ body {
 }
 
 img {
+  display: block;
   max-width: 100%;
   height: auto;
 }
@@ -335,9 +336,20 @@ img {
 
 /* footer */
 .page-footer {
+  display: flex;
+  flex-direction: column;
   background-color: var(--footer-bg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .address {
   color: var(--primary-white-color);
   text-decoration: none;
+  font-style: normal;
+  padding-left: 0px;
+}
+.footer-nav .list .address {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
 }
