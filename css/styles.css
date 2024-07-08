@@ -305,14 +305,13 @@ img {
 /* ---------- PORTFOLIO----------  */
 .portfolio {
   background: #ffffff;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-container {
   display: flex;
   flex-direction: column;
-  /* padding: 120px 0 120px 0; */
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .portfolio-title {
