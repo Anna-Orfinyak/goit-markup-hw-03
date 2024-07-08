@@ -23,7 +23,6 @@ body {
 }
 
 .section-text {
-  /* font-weight: 400; */
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -239,7 +238,6 @@ img {
 .features-list {
   display: flex;
   gap: 24px;
-  /* width: calc((100%-3 * 24px) / 4); */
 }
 
 .features-item {
@@ -385,6 +383,7 @@ img {
 
 .footer-content {
   display: flex;
+
   flex-direction: column;
 }
 /* ----------   ----------  */
