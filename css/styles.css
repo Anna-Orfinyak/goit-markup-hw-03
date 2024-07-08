@@ -240,7 +240,7 @@ img {
 .features-list {
   display: flex;
   gap: 24px;
-  width: calc((100% - 3 * 24px) / 4);
+  width: calc((100%-3 * 24px) / 4);
 }
 
 .features-item {
@@ -255,7 +255,6 @@ img {
 .team-container {
   display: flex;
   flex-direction: column;
-  /* padding: 120px 0 120px 0; */
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -270,7 +269,7 @@ img {
 .team-list {
   display: flex;
   gap: 24px;
-  width: calc((100% - 3 * 24px) / 4);
+  width: calc((100%-3 * 24px) / 4);
 }
 
 .team-item {
