@@ -360,25 +360,22 @@ img {
   display: flex;
 }
 
+.footer-content {
+}
+
 .footer-logo {
   display: inline-block;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
   margin-bottom: 16px;
 }
 
 .footer-text {
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  max-width: 264px;
+  width: 264px;
 }
 
 .footer-content {
