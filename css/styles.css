@@ -190,8 +190,6 @@ img {
 .hero-title {
   margin-left: auto;
   margin-right: auto;
-  display: flex;
-  flex-direction: column;
   max-width: 496px;
   font-weight: 700;
   font-size: 56px;
@@ -259,15 +257,11 @@ img {
 }
 
 .team-container {
-  display: flex;
-  flex-direction: column;
 }
 
 .team-title {
   text-align: center;
   margin-bottom: 72px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .team-list {
@@ -289,8 +283,6 @@ img {
 .team-item-card {
   padding-top: 32px;
   padding-bottom: 32px;
-  display: flex;
-  flex-direction: column;
 }
 
 .team-subtitle {
@@ -314,15 +306,11 @@ img {
 }
 
 .portfolio-container {
-  display: flex;
-  flex-direction: column;
 }
 
 .portfolio-title {
   text-align: center;
   margin-bottom: 72px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .portfolio-list {
